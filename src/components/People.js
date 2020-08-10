@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import React from 'react';
 import { usePaginatedQuery } from 'react-query';
 import Person from './Person';
@@ -43,7 +44,7 @@ const People = () => {
           </button>
           <div>
             {resolvedData.results.map((person) => (
-              <Planet key={person.name} person={person} />
+              <Person key={person.name} person={person} />
             ))}
           </div>
         </>
