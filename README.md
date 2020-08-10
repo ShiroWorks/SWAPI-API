@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](httpss://github.com/facebook/create-react-app).
 
+[Live version](https://swapi-star-wars-api.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
