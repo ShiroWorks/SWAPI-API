@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from 'react-query';
+import { usePaginatedQuery } from 'react-query';
 import Person from './Person';
 
 const fetchPeople = async (key, page) => {
