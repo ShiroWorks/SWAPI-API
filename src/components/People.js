@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import React from 'react';
 import { usePaginatedQuery } from 'react-query';
 import Person from './Person';
 
